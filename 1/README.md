@@ -1,25 +1,23 @@
-# Football score
 
-# مسئله محاسبه امتیاز تیم فوتبال / Football Team Points Calculator
+<div dir="rtl">
 
-## فارسی
+# مسئله محاسبه امتیاز تیم فوتبال
 
-### عنوان: محاسبه امتیاز تیم در لیگ
+## عنوان: محاسبه امتیاز تیم در لیگ
 
 به تازگی مسئول استادیوم فوتبال تغییر کرده و فرد جدیدی برای این عنوان انتخاب شده است. او می‌خواهد تحولی جدید در سیستم امتیازدهی به تیم‌ها ایجاد کند. برای این کار می‌خواهد برنامه‌ای بنویسد که به صورت خودکار امتیاز هر تیم را محاسبه کند.
 
 **قانون امتیازدهی:**
-- هر برد = **۳ امتیاز**
-- هر تساوی = **۱ امتیاز**
-- هر باخت = **۰ امتیاز**
+- هر برد = ۳ امتیاز
+- هر تساوی = ۱ امتیاز
+- هر باخت = ۰ امتیاز
 
 ### ورودی
 
 در یک خط، سه عدد صحیح `w`، `e` و `l` به ترتیب آورده می‌شوند که نشان‌دهنده‌ی تعداد برد، تعداد تساوی و تعداد باخت تیم هستند.
 
-\[
-1 \leq w, e, l \leq 100
-\]
+محدودیت:  
+1 <= w <= 100 ، 1 <= e <= 100 ، 1 <= l <= 100
 
 ### خروجی
 
@@ -35,7 +33,7 @@
 ```
 11
 ```
-(چون \(3 \times 3 + 2 \times 1 + 1 \times 0 = 9 + 2 = 11\))
+(توضیح: 3 برد × 3 + 2 تساوی × 1 + 1 باخت × 0 = 9 + 2 = 11)
 
 **ورودی نمونه ۲:**
 ```
@@ -45,26 +43,30 @@
 ```
 15
 ```
+(توضیح: 5 × 3 + 0 × 1 + 2 × 0 = 15)
+
+</div>
 
 ---
 
-## English
+<div dir="ltr">
 
-### Title: Football Team Points Calculation
+# Football Team Points Calculation
+
+## Title: Football Team Points Calculation
 
 The new manager of a football stadium wants to automate the team scoring system. He needs a program that calculates the total points of a team based on the following rules:
 
-- Win = **3 points**
-- Draw = **1 point**
-- Loss = **0 points**
+- Win = 3 points
+- Draw = 1 point
+- Loss = 0 points
 
 ### Input
 
 A single line containing three integers `w`, `e`, `l` representing the number of wins, draws, and losses respectively.
 
-\[
-1 \leq w, e, l \leq 100
-\]
+Constraints:  
+1 <= w <= 100 , 1 <= e <= 100 , 1 <= l <= 100
 
 ### Output
 
@@ -80,7 +82,7 @@ Print a single integer — the total points of the team.
 ```
 11
 ```
-(Since \(3 \times 3 + 2 \times 1 + 1 \times 0 = 9 + 2 = 11\))
+(Explanation: 3 wins × 3 + 2 draws × 1 + 1 loss × 0 = 9 + 2 = 11)
 
 **Sample Input 2:**
 ```
@@ -89,4 +91,8 @@ Print a single integer — the total points of the team.
 **Sample Output 2:**
 ```
 15
+```
+(Explanation: 5 × 3 + 0 × 1 + 2 × 0 = 15)
+
+</div>
 ```
