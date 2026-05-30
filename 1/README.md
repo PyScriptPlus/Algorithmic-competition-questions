@@ -95,4 +95,3 @@ Print a single integer — the total points of the team.
 (Explanation: 5 × 3 + 0 × 1 + 2 × 0 = 15)
 
 </div>
-```
